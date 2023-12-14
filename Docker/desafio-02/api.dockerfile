@@ -6,6 +6,6 @@ COPY . /app
 
 RUN  npm init -y && npm install express sequelize mysql2
 
-CMD ["node", "server.js"]
+CMD ["node", "./src/server.js"]
 
 EXPOSE 3000
