@@ -10,7 +10,13 @@
 
 run ``` docker-compose up --build``` in the root folder.
 
-run ``` curl --request GET --url 'http://localhost:8080/' ``` in new terminal instance.
+run ``` curl --request GET --url 'http://localhost:8080/' ``` in new terminal instance to list.
+
+run ``` curl --location 'http://localhost:8080/create' \
+--header 'Content-Type: application/json' \
+--data '{
+    "name": "new peaple"
+}' ``` to create a new user.
 
 ### result: 
 ```
