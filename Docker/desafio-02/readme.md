@@ -15,7 +15,7 @@ run ``` curl --request GET --url 'http://localhost:8080/' ``` in new terminal in
 run ``` curl --location 'http://localhost:8080/create' \
 --header 'Content-Type: application/json' \
 --data '{
-    "name": "new peaple"
+    "name": "new people"
 }' ``` to create a new user.
 
 ### result: 
