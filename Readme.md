@@ -14,4 +14,4 @@
   <h2>Desafios Full cycle</h3>
   
  - Desafio go [mario340/desafiodocker01 :](https://hub.docker.com/repository/docker/mario340/desafiodocker01/general)
- - Desafio node [README](Docker/desafio-node/readme.md)
+ - Desafio node [README](Docker/desafio-02/readme.md)
